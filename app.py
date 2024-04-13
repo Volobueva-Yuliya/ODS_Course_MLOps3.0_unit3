@@ -12,7 +12,7 @@ def main():
     print(matrix)
 
     # Compute the determinant of the matrix
-    determinant = np.linalg.det(matrix)
+    determinant = np.round((np.linalg.det(matrix)), 2)
     print("Determinant of the matrix:")
     print(determinant)
 
