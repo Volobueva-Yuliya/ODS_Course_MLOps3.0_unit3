@@ -1,7 +1,5 @@
 FROM mambaorg/micromamba
 
-LABEL org.opencontainers.image.source=https://github.com/Volobueva-Yuliya/ODS_Course_MLOps3.0_unit3
-
 WORKDIR /app
 
 COPY environment_dev.yaml .
